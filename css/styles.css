@@ -1,45 +1,46 @@
-@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;700&display=swap");
 
 :root {
-    --primary: #7898FF;
-    --secondary: #8E64C5;
-    --app-grey: #F2F2F2;
-  }
-
-*{
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-    font-family: 'Ubuntu', sans-serif;
+  --primary: #7898ff;
+  --secondary: #8e64c5;
+  --app-grey: #f2f2f2;
 }
 
-body{
-background: linear-gradient(110deg, var(--primary), var(--secondary));
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Ubuntu", sans-serif;
 }
 
-main{
+body {
+  background: linear-gradient(110deg, var(--primary), var(--secondary));
+}
+
+main {
   margin: 100px 0;
 }
-.contenedor{
+.contenedor {
   width: 500px;
   margin: 25px auto;
   padding: 25px 50px;
   background-color: white;
 }
-.contenedor input,label,button{
+.contenedor input,
+label,
+button {
   display: block;
   margin: 20px auto;
   width: 100%;
 }
 
-
-.comentarios{
+.comentarios {
   width: 500px;
   margin: 0 auto;
   padding: 25px 50px;
   background-color: white;
 }
-.comentarios p{
+.comentarios p {
   background-color: var(--app-grey);
   padding: 10px;
   margin: 10px 0;
